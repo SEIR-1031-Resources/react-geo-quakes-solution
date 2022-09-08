@@ -23,3 +23,9 @@ body {
   padding-right: 2em;
   background-color: pink;
 }
+
+#map{
+  border: 1px solid black;
+  width: 95%;
+  height: 90%;
+}
