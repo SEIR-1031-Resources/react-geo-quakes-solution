@@ -9,7 +9,7 @@ const Marker = (options) => {
         setMarker(newMarker);
       }
   
-      // remove marker from map on unmount
+      // removes marker from map on unmount
       return () => {
         if (marker) {
           marker.setMap(null);
